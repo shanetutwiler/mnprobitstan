@@ -106,6 +106,7 @@ rstan::plot(stanfit, plotfun = "trace", pars = "beta", inc_warmup = TRUE)
 library(bayesplot)
 library(posterior)
 library(tidyr)
+library(dplyr)
 library(ggplot2)
 
 # Extract posterior samples
